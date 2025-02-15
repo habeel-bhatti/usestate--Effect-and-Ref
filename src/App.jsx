@@ -1,28 +1,29 @@
 
 import './App.css'
-import { createBrowserrouter } from 'react-router-dom'
+import { createBrowserrouter, RouterProvider } from 'react-router-dom'
 import Navbar from './Maincomponents/Navbar'
 import Home from './Maincomponents/Home'
 import About from './Maincomponents/About'
 import Services from './Maincomponents/Skills'
 import Skills from './Maincomponents/Skills'
 
+
 function App() {
 const router = createBrowserrouter([
   {
-    path : '/',
+    path : "/",
     element : <Home/>
   },
   {
-    path : '/About',
+    path : "/About",
     element : <About/>
   },
   {
-    path : '/Services',
+    path : "/Services",
     element : <Services/>
   },
   {
-    path : '/Skills',
+    path : "/Skills",
     element : <Skills/>
   },
   
@@ -32,6 +33,7 @@ const router = createBrowserrouter([
   return (
     <>
      <Navbar/>
+     <RouterProvider router={router}/>
     </>
   )
 }
