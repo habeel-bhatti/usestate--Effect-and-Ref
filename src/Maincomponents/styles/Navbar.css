@@ -1,0 +1,8 @@
+nav li{
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: azure;
+    background-color: darkgoldenrod;
+}
