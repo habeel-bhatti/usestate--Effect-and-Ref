@@ -5,4 +5,8 @@ nav li{
     font-weight: bolder;
     color: azure;
     background-color: darkgoldenrod;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    list-style-type: none;
 }
