@@ -1,12 +1,14 @@
-nav li{
+nav ul li {
+    list-style: none;
+    text-decoration: none;
     display: inline;
-    margin: 20px;
-    font-size: 20px;
-    font-weight: bolder;
-    color: azure;
-    background-color: darkgoldenrod;
+    margin-right: 15px;
+    font-size: 23px;
+    font-weight: 35px;
+    color: rgb(2, 8, 19);
+    background-color: tomato;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
     border: 2px solid black;
-    border-radius: 4px;
-    padding: 5px;
-    list-style-type: none;
+    border-radius: 7px;
 }
